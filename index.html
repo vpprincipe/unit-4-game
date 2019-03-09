@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Gem Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">GEM GAME!</h1>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">wins: <span id="wins">0</span></li>
+                <li class="list-group-item">
+                  Losses: <span id="losses">0</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Player Score: <span id="totalScore">0</span>
+                </li>
+                <li class="list-group-item">
+                  Goal Score: <span id="goalScore"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+            <div class="col">  
+                <img id="crystal1" src="./assets/images/crystal1.PNG" alt="Red Gem">
+            </div>  
+            <div class="col">
+                <img id="crystal2" src="./assets/images/crystal2.PNG" alt="White Gem">
+            </div>
+            <div class="col">
+                    <img id="crystal3" src="./assets/images/crystal3.PNG" alt="Blue Gem">
+            </div>
+            <div class="col">
+                <img id="crystal4" src="./assets/images/crystal4.PNG" alt="Green Gem">
+            </div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Optional JavaScript -->
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
